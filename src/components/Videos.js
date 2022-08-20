@@ -33,10 +33,7 @@ const Videos = () => {
 
     return input.toString();
 }
-// 123,123,123,123
-  videoList.map((video, index) => {
-    console.log(video);
-  });
+
 
   return (
     <div className="card">
