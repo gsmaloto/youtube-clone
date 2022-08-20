@@ -1,0 +1,10 @@
+
+.item__row {
+    display: flex;
+    align-items: center;
+    padding: .5rem 1rem;
+    gap: 1rem;
+}
+.item__row:hover {
+    background-color: rgb(241, 241, 241);
+}

@@ -1,0 +1,96 @@
+.nav {
+    background-color: white;
+    position: fixed;
+    width: 100vw;
+    border-bottom: 1px solid rgb(216, 216, 216);
+    padding: 3px 0;
+    z-index: 100;
+}
+.nav__icon {
+    cursor: pointer;
+    color: rgb(85, 85, 85);
+    
+    
+}
+.nav__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+    padding: 0 2rem;
+}
+.nav__logo {
+    height: 60px;
+}
+
+.nav__left {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.nav__center {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.nav__search {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.nav__input {
+    width: 100%;
+    font-size: 1rem;
+    padding: .5rem .6rem;
+}
+.nav__search-icon {
+    height: 100%;
+    background-color: #F0F0F0;
+    padding: .5rem 1.2rem;
+    border: 1px solid rgb(180, 180, 180);
+    margin-right: 8px;
+}
+.nav__search-icon:hover {
+    background: #dadada;
+}
+.nav__mic-icon {
+    background-color: rgba(245, 245, 245, 0.801);
+    border-radius: 50% ;
+    padding: 1rem;
+}
+.nav__right {
+    display: flex;
+    align-items: center;
+}
+.nav__right > .nav__icon {
+    padding: 1rem;
+
+}
+.nav__profile {
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+    cursor: pointer ;
+    margin-left: 8px;
+}
+
+.nav__notification {
+    position: relative;
+    margin-right: 8px;
+}
+.nav__notifBadge {
+    position: absolute;
+    top: -5px;
+    right: -3px;
+    background-color: red;
+    color: white;
+    font-size: .7rem;
+    padding: 2px 4px;
+    /* height: 18px;
+    width: 18px; */
+    text-align: center;
+    border-radius: 50%;
+}

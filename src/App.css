@@ -1,0 +1,21 @@
+* {
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+
+.sidebar {
+   width: 250px;
+   position: fixed;
+   padding-top: 33px;
+}
+
+
+.videos {
+  background: #F9F9F9;
+  margin-left: 250px;
+  padding-top: 90px;
+  padding-bottom: 3rem;
+  height: 120vh;
+}
